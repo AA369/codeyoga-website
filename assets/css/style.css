@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*--------------------------------------------Colors*/
+
+.ui-menu-color {
+    background-color: #C0C0C0;
+}
+
+/*--------------------------------------------Heading*/
+
+header {
+    background-color: #C0C0C0;
+    margin: 0;
+}
+
+.logo {
+    padding: 5px;
+    margin: 0px auto;
+    background: url("../images/logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 120px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    padding: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    height: 120px;
+}
+
+/*----fa fa font size*/
+.menuitem a i {
+    padding-top: 25px;
+    display: block;
+    font-size: 25px;
+}
+
+/*----menu item font size*/
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;  
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+/*--------------------------------------------End Heading*/
+
+/*--------------------------------------------Hover.css*/
+
+/*----heading menu items---*/
+.hvr-sweep-to-bottom:before {
+    background: #808080;
+    height: 120px;
+}
