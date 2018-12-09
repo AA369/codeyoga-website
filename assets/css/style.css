@@ -7,7 +7,7 @@
 }
 
 
-/*-----General------------*/
+/*-----General website styling------------*/
 
 .uppercase {
     text-transform: uppercase;
@@ -89,7 +89,6 @@ header {
     height: 120px;
 }
 
-
 /*--------------------------------------------Footer */
 footer {
     background-color: #C0C0C0;
@@ -112,7 +111,7 @@ footer {
     color: #fafafa;
     text-decoration: none;
     padding-left: 15px;
-    float: center;
+    text-align: center;
 }
 
 .social-links li a i {
@@ -137,6 +136,14 @@ footer {
 
 #footer-details {
     margin: 20px;
+}
+
+.copyright-text p {
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size:15px;
 }
 
 /*---------End Footer--------*/
