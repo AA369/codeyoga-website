@@ -76,7 +76,7 @@ header {
     color: #fafafa;
 }
 
-/* styling for section header text */ 
+/* styling for section header text on all pages */ 
 .page-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
@@ -87,7 +87,7 @@ header {
     clear: both;
 }
 
-/* set the height in all sections---*/
+/* set the height in all body sections---*/
 .callout-container {
     text-align: center;
     min-height: calc(100vh - 240px);
@@ -141,6 +141,67 @@ header {
 }
 
 /*--------------------------------------------End index page container and button */
+
+/*-----------contact page ---------------------*/
+
+.row-table {
+    display: table;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: relative; 
+    z-index: 1;
+    top:150px;
+    left: 10px;
+    font-size: 15px;
+    font-family: "Exo", sans-serif;
+    color:#C0C0C0;
+    overflow: hidden;
+    float: left;
+}
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+.general-font {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #000000;
+    color: #fafafa;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/*-----------End contact page ---------------------*/
 
 /*--------------------------------------------Footer */
 footer {
@@ -200,3 +261,25 @@ footer {
 }
 
 /*---------End Footer--------*/
+
+/*--------------------------------------------Media Queries*/
+
+/* contact page side info*/ 
+
+@media(min-width: 992px) {
+    .section-column {
+        padding: 0 30px 30px;
+        float: none;
+        display: table-cell;
+    }
+    
+}
+
+@media only screen and (max-width: 992px) {
+ 
+    .sidenav {
+        top: 20px;
+        width: 100%;
+        padding-bottom: 25px;
+    }
+}

@@ -2,7 +2,7 @@
 <html lang="en">
     
     <head>
-        <meta chartset="utf-8">
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <title>codeYoga website</title>
@@ -14,7 +14,6 @@
     </head>
     
     <body>  
-    
         <header class="container-fluid">
            <div class="row">
                 <a href="index.html" class="col-xs-12 col-sm-4 col-lg-2 logo menuitem"></a>
@@ -38,8 +37,37 @@
           </div>
         </header>
         
-        <section> 
-            <h2>section coming soon</h2>
+        <section class="container-fluid callout-container">
+            <div class="row row-table">
+                <div class="col-sm-2 section-column">
+                    <div class="row">
+                        
+                             <div class="sidenav contact-heading">
+                                        <p><i class="fa fa-phone"></i> 087 1010 101</p>
+                                        <p><i class="fa fa-envelope"></i> <a href="mailto:info@codeyoga.ie">info@codeyoga.ie</a></p>
+                                        <p><i class="fa fa-address-card"></i> 1010 Code Lane, County Dublin</p>
+                            </div>
+                     
+                    </div>
+                </div>
+                <div class="section-column">
+                    <div class="row">
+                       <h1 class="uppercase text-center page-heading">contact</h1>
+                        <div class="col-md-12">
+                           <div class="center-form general-font">
+                             <form action="contact.html">
+
+                                <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+                                <input type="text" id="lname" name="lastname" placeholder="Your number.." required>
+                                <textarea id="subject" name="subject" placeholder="Write your message here.." required></textarea>
+                                <input type="submit" value="Submit">
+                              </form>
+                              
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         
         <footer class="container-fluid">
