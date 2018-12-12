@@ -143,6 +143,32 @@ header {
 
 /*--------------------------------------------End index page container and button */
 
+/*------------- Schedule page ---------*/
+
+/* Promotion banner alert */
+
+.alert-container .col-xs-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.alert-style  {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: white;
+    background-color: #000000;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    border-radius: 0;
+}
+
+.alert a {
+    color: #FFB6C1;
+    text-decoration: underline;
+}
+
+/*--------------End schedule page -----*/
+
 /* Pricing page styling */
 
 * {
