@@ -88,6 +88,7 @@ header {
 }
 
 /* set the height in all body sections---*/
+/* feature courtesty of mentor extraordinaire Chris Zielinski--*/
 .callout-container {
     text-align: center;
     min-height: calc(100vh - 240px);
