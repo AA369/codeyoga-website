@@ -54,7 +54,7 @@ header {
     font-size: 25px;
 }
 
-/*----menu item font size*/
+/* menu item font size */
 .menuitem span {
     display: block;
     width: 100%;
@@ -142,6 +142,23 @@ header {
 }
 
 /*--------------------------------------------End index page container and button */
+
+/*---------About ---------*/
+
+
+/* paragraph text */
+.about {
+   text-align: justify;
+}
+
+div.video {
+    border-style: groove;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/*--------End About --------*/
 
 /*------------- Schedule page ---------*/
 
