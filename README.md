@@ -52,6 +52,7 @@ FEATURES
 
 -------------
 FUTURE RELEASES
+
 Version 2 will include a fully functional booking page to allow for credit card details to be taken.
 
 ------------
