@@ -5,7 +5,7 @@ Author: Amanda Afifi
 This is a static and front-end only website for a yoga studio business. It provides information on class styles, 
 class scheduling and pricing. It allows clients to book a class and to contact the teacher.
 
-The website can be accessed from this project [here](https://aa369.github.io/codeyoga-website/)
+The website can be accessed from [here](https://aa369.github.io/codeyoga-website/)
 
 ------------
 UX
