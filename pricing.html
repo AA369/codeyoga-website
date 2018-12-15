@@ -17,8 +17,10 @@
     
     <body>  
     
+        <!-- Menu Item Navbar -->
         <header class="container-fluid">
            <div class="row">
+                <!-- Logo -->
                 <a href="index.html" class="col-xs-12 col-sm-4 col-lg-2 logo menuitem"></a>
                 <ul id="nav" class="list-inline clearfix ui-menu-color">
                     <li class="col-xs-6 col-sm-4 col-lg-2 menuitem">
@@ -40,68 +42,76 @@
           </div>
         </header>
         
-       <section class="container-fluid callout-container">
-    <h1 class="uppercase text-center page-heading">Pricing</h1>
-    <div class="columns">
-        <ul class="price">
-            <li class="header">Drop-In</li>
-            <li class="grey">&euro;11 / class</li>
-            <li>Bring your own mat</li>
-            <li>Book in advance</li>
-            <li 
-                <span><button id="myBtn" class="btn center-block general-font uppercase">sign up</button></span>
-                 <!-- The Modal 1-->
-                <div id="myModal" class="modal">
-
-                 <!-- Modal content -->
-                  <div class="modal-content">
-                        <span class="close">&times;</span>
-                            <p>Thank you for signing up. Enjoy your class!</p>
-                  </div>
-                </div>
-            </li>
-        </ul>
-    </div>
-    <div class="columns">
-        <ul class="price">
-            <li class="header">Monthly</li>
-            <li class="grey">&euro;89 / month</li>
-            <li>Mat included</li>
-            <li>No advance booking required</li>
-            <li 
-                 <span><button id="myBtn2" class="btn center-block general-font uppercase">sign up</button></span>
+        <!-- Pricing Columns -->
+        <section class="container-fluid callout-container">
             
-                     <!-- The Modal 2-->
-                <div id="myModal2" class="modal">
+            <h1 class="uppercase text-center page-heading">Pricing</h1>
+                <!-- Column 1 -->
+                <div class="columns">
+                    <ul class="price">
+                        <li class="header">Drop-In</li>
+                            <li class="grey">&euro;11 / class</li>
+                            <li>Bring your own mat</li>
+                            <li>Book in advance</li>
+                            <li>
+                                <!-- Sign-Up Button -->
+                                <span><button id="myBtn" class="btn center-block general-font uppercase">sign up</button></span>
+                                 <!-- The Modal 1-->
+                                <div id="myModal" class="modal">
 
-                 <!-- Modal content -->
-                  <div class="modal-content">
-                        <span class="close">&times;</span>
-                            <p>Thank you for signing up. Enjoy your class!</p>
-                  </div>
+                                     <!-- Modal content -->
+                                     <div class="modal-content">
+                                        <span class="close">&times;</span>
+                                        <p>Thank you for signing up. Enjoy your class!</p>
+                                     </div>
+                                </div>
+                            </li>
+                    </ul>
                 </div>
-            </li>
-        </ul>
-    </div>
-    <div class="columns">
-         <ul class="price">
-            <li class="header">Promotion</li>
-            <li class="grey">&euro;60 / 10 classes</li>
-            <li>Bring your own mat</li>
-            <li>No advance booking required</li>
-            <li 
-                 <span><button id="myBtn3" class="btn center-block general-font uppercase">sign up</button></span>
-                 <!-- The Modal 3-->
-                <div id="myModal3" class="modal">
+                <!-- Column 2 -->
+                <div class="columns">
+                    <ul class="price">
+                            <li class="header">Monthly</li>
+                            <li class="grey">&euro;89 / month</li>
+                            <li>Mat included</li>
+                            <li>No advance booking required</li>
+                            <li>
+                             <!-- Sign-Up Button -->
+                             <span><button id="myBtn2" class="btn center-block general-font uppercase">sign up</button></span>
+            
+                                 <!-- The Modal 2-->
+                                <div id="myModal2" class="modal">
 
-                 <!-- Modal content -->
-                  <div class="modal-content">
-                        <span class="close">&times;</span>
-                            <p>Thank you for signing up. Enjoy your class!</p>
-                  </div>
+                                 <!-- Modal content -->
+                                  <div class="modal-content">
+                                    <span class="close">&times;</span>
+                                    <p>Thank you for signing up. Enjoy your class!</p>
+                                  </div>
+                                </div>
+                            </li>
+                    </ul>
                 </div>
-            </li>
-        </ul>
+                <!-- Column 3 -->
+                <div class="columns">
+                    <ul class="price">
+                            <li class="header">Promotion</li>
+                            <li class="grey">&euro;60 / 10 classes</li>
+                            <li>Bring your own mat</li>
+                            <li>No advance booking required</li>
+                            <li>
+                                 <!-- Sign-Up Button -->
+                                 <span><button id="myBtn3" class="btn center-block general-font uppercase">sign up</button></span>
+                                 <!-- The Modal 3-->
+                                    <div id="myModal3" class="modal">
+
+                                         <!-- Modal content -->
+                                          <div class="modal-content">
+                                            <span class="close">&times;</span>
+                                           <p>Thank you for signing up. Enjoy your class!</p>
+                                          </div>
+                                    </div>
+                             </li>
+                    </ul>
                   
        <script>
        
@@ -182,20 +192,22 @@
                 modal.style.display = "none";
               }
             }
-</script>
-                    
-    </div>
+            </script>
+           
+        </div>
       </section>
         
         <footer class="container-fluid">
               <div class="row">
+                <!-- Audio Container -->
                 <div class="col-xs-12 col-sm-6 text-center uppercase general-sub timeout">Take a time out
                     <div>
-                       <audio controls="controls" src="assets/audio/bells.mp3">
+                       <audio controls="controls" src="assets/audio/meditation.mp3">
                             Your browser does not support the audio element
                         </audio>
                     </div>
                 </div>
+                <!-- Social Media Container to External Links -->
                 <div class="col-xs-12 col-sm-6 uppercase general-sub social">Social Media
                     <ul class="list-inline social-links">
                         <li><a target="_blank" href="https://www.facebook.com/CodeYoga-2206091706324212"><i class="fa fa-facebook"></i></a></li>
@@ -208,6 +220,7 @@
                 </div>
             </div>
         
+        <!-- Copyright  Banner -->
         <div class="row">
                 <div class="copyright-text general-sub">
                     <p>All Rights Reserved. CodeYoga 2011 - 2018.</p>

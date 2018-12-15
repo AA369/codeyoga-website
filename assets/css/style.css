@@ -1,16 +1,50 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/*--------------------------------------------Colors*/
+/*--------------------------------------------Colours*/
 
+/* Menu item colour */ 
 .ui-menu-color {
     background-color: #C0C0C0;
 }
 
+/* grey text colour used throughout website */ 
+.general-sub {
+    font-weight: 300;
+    color: #fafafa;
+}
+
 /*--------------------------------------------Special paddings/margins/text*/
 
+
 header {
+    font-family: "Exo", sans-serif;
     background-color: #C0C0C0;
+    color: #fafafa;
     margin: 0;
+    padding:0;
+}
+
+body {  
+    font-family: "Exo", sans-serif;
+    color: #C0C0C0;
+    margin: 0;
+    padding:0;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+container-fluid {
+    margin: 0;
+    padding:0;
+}
+
+footer {
+    background-color: #C0C0C0;
+    min-height: 120px;
+    margin: 0;
+    padding:0;
 }
 
 .logo {
@@ -26,6 +60,7 @@ header {
     -webkit-transition: all .5s ease-in-out;
 }
 
+/* menu item nav*/
 #nav {
     margin: 0;
 }
@@ -70,15 +105,14 @@ header {
     text-transform: uppercase;
 }
 
-.general-sub {
-    font-family: "Exo", sans-serif;
+/* font sizing on all pages */ 
+.general-font {
     font-weight: 300;
-    color: #fafafa;
+    font-size: 25px;
 }
 
 /* styling for section header text on all pages */ 
 .page-heading {
-    font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 5px;
     margin-bottom: 10px;
@@ -87,8 +121,7 @@ header {
     clear: both;
 }
 
-/* set the height in all body sections---*/
-/* feature courtesty of mentor extraordinaire Chris Zielinski--*/
+/* set the height in all body sections - calc provided by mentor C. Zielinski ---*/
 .callout-container {
     text-align: center;
     min-height: calc(100vh - 240px);
@@ -105,7 +138,6 @@ header {
 }
 
 /* Index page container and button */
-
 .container {
     position: relative;
     width: 100%;
@@ -126,6 +158,7 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+    font-family: "Exo", sans-serif;
     background-color: #f1f1f1;
     color: #000000;
     font-size: 16px;
@@ -143,7 +176,7 @@ header {
 
 /*--------------------------------------------End index page container and button */
 
-/*---------About ---------*/
+/*---------About page---------*/
 
 
 /* paragraph text */
@@ -163,7 +196,6 @@ div.video {
 /*------------- Schedule page ---------*/
 
 /* Promotion banner alert */
-
 .alert-container .col-xs-12 {
     padding-left: 0;
     padding-right: 0;
@@ -184,15 +216,15 @@ div.video {
     text-decoration: underline;
 }
 
-/*---schedule table image----*/
+/* schedule table image */
 .col-1 img {
-    height:5em;
-    width:5em;
+    height:7em;
+    width:7em;
 }
 
 /*--------------End schedule page -----*/
 
-/* Pricing page styling */
+/* --------------Pricing page styling --------------*/
 
 * {
     box-sizing: border-box;
@@ -214,7 +246,6 @@ div.video {
 }
 
 .price .header {
-    font-family: "Exo", sans-serif;
     font-weight: 300;
     background-color: #C0C0C0;
     color: #ffffff;
@@ -222,7 +253,6 @@ div.video {
 }
 
 .price li {
-    font-family: "Exo", sans-serif;
     font-weight: 300;
     border-bottom: 1px solid #eee;
     padding: 20px;
@@ -231,6 +261,7 @@ div.video {
 
 .price .grey {
     background-color: #000000;
+    color: #ffffff;;
     font-size: 20px;
 }
 
@@ -249,7 +280,7 @@ div.video {
     color: #ffffff;
 }
 
-/*------- Sign up Button */
+/* Sign up Button */
 
 /* The popup form - hidden by default */
 .form-popup {
@@ -297,11 +328,6 @@ div.video {
 
 /*------------Pricing page modal pop up box---------*/
 
-body {  
-    font-family: "Exo", sans-serif;
-    text-transform: uppercase;
-    color: #C0C0C0;
-}
 
 /* The Modal (background) */
 .modal {
@@ -361,14 +387,13 @@ body {
     top:150px;
     left: 10px;
     font-size: 15px;
-    font-family: "Exo", sans-serif;
+    
     color:#C0C0C0;
     overflow: hidden;
     float: left;
 }
 
 .contact-heading {
-    font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 20px;
@@ -380,12 +405,7 @@ body {
     max-width: 50%;
 }
 
-.general-font {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    font-size: 25px;
-}
-
+/* contact form input fields */
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -397,6 +417,7 @@ input[type=text], select, textarea {
     resize: vertical;
 }
 
+/* contact form button  */
 input[type=submit] {
     background-color: #000000;
     color: #fafafa;
@@ -409,11 +430,6 @@ input[type=submit] {
 /*-----------End contact page ---------------------*/
 
 /*--------------------------------------------Footer */
-footer {
-    background-color: #C0C0C0;
-    min-height: 120px;
-    margin: 0;
-}
 
 .timeout {
     padding-top: 10px;
@@ -470,18 +486,15 @@ footer {
 /*--------------------------------------------Media Queries*/
 
 
-/* pricing page */
-
-@media only screen and (max-width: 700px) {
+/* pricing page - stack columns vertically */
+@media only screen and (max-width: 768px) {
     .columns {
         width: 100%;
     }
-    
 }
 
-/* contact page side info*/ 
-
-@media(min-width: 992px) {
+/* line up sidenav and contact form horizontally on non-mobile devices */
+@media (min-width: 991px) {
     .section-column {
         padding: 0 30px 30px;
         float: none;
@@ -490,6 +503,7 @@ footer {
     
 }
 
+/* stack sidenav on top of contact form on mobile */
 @media only screen and (max-width: 992px) {
  
     .sidenav {
